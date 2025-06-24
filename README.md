@@ -1,9 +1,8 @@
 # 🚀 Laravel File Viewer
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vish4395/laravel-file-viewer.svg?style=flat-square)](https://packagist.org/packages/vish4395/laravel-file-viewer)
-[![Total Downloads](https://img.shields.io/packagist/dt/vish4395/laravel-file-viewer.svg?style=flat-square&color=brightgreen)](https://packagist.org/packages/vish4395/laravel-file-viewer)
-![GitHub](https://img.shields.io/github/license/vish4395/laravel-file-viewer?style=flat-square)
-[![GitHub Stars](https://img.shields.io/github/stars/vish4395/laravel-file-viewer?style=flat-square)](https://github.com/vish4395/laravel-file-viewer/stargazers)
-[![Twitter URL](https://img.shields.io/twitter/url?color=blue&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fvish4395%2Flaravel-file-viewer%2F)](https://twitter.com/intent/tweet?text=Checkout%20this%20awesome%20package%0Ahttps%3A//github.com/vish4395/laravel-file-viewer/)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Shamseer1997/laravel-file-viewer.svg?style=flat-square)](https://packagist.org/packages/shamseer1997/laravel-file-viewer)
+[![Total Downloads](https://img.shields.io/packagist/dt/Shamseer1997/laravel-file-viewer?style=flat-square&color=brightgreen)](https://packagist.org/packages/shamseer1997/laravel-file-viewer)
+![GitHub](https://img.shields.io/github/license/Shamseer1997/laravel-file-viewer?style=flat-square)
+[![GitHub Stars](https://img.shields.io/github/stars/Shamseer1997/laravel-file-viewer?style=flat-square)](https://github.com/shamseer1997/laravel-file-viewer/stargazers)
 
 <p align="center">
 <img width="80%" src="laravel-file-viewer.png" alt="Laravel File Viewer">
@@ -32,19 +31,19 @@
 Install via Composer:
 
 ```bash
-composer require vish4395/laravel-file-viewer
+composer require shamseer1997/laravel-file-viewer
 ```
 
 Publish assets:
 
 ```bash
-php artisan vendor:publish --provider="Vish4395\LaravelFileViewer\LaravelFileViewerServiceProvider" --tag=assets
+php artisan vendor:publish --provider="shamseer1997\LaravelFileViewer\LaravelFileViewerServiceProvider" --tag=assets
 ```
 
 Publish views (optional, for UI customization):
 
 ```bash
-php artisan vendor:publish --provider="Vish4395\LaravelFileViewer\LaravelFileViewerServiceProvider" --tag=views
+php artisan vendor:publish --provider="shamseer1997\LaravelFileViewer\LaravelFileViewerServiceProvider" --tag=views
 ```
 
 ---
@@ -55,7 +54,7 @@ Add the alias in your `config/app.php` (Laravel 10 and below):
 
 ```php
 'aliases' => Facade::defaultAliases()->merge([
-    'LaravelFileViewer' => Vish4395\LaravelFileViewer\LaravelFileViewerFacade::class,
+    'LaravelFileViewer' => shamseer1997\LaravelFileViewer\LaravelFileViewerFacade::class,
 ])->toArray(),
 ```
 
@@ -63,7 +62,7 @@ Add the alias in your `config/app.php` (Laravel 10 and below):
 
 ```php
 use Illuminate\Http\Request;
-use Vish4395\LaravelFileViewer\LaravelFileViewer;
+use shamseer1997\LaravelFileViewer\LaravelFileViewer;
 
 class FilePreviewController extends Controller
 {
@@ -105,7 +104,6 @@ If you find this package useful:
 
 - ⭐ Star this repo on GitHub
 - 📦 Try it in your next Laravel project
-- 🐦 Tweet about it [@vish4395](https://twitter.com/vish4395)
 - 💬 Share feedback and suggestions
 
 ---
@@ -120,18 +118,19 @@ See [CHANGELOG](CHANGELOG.md) for recent updates.
 
 PRs are welcome!
 See [CONTRIBUTING](CONTRIBUTING.md) for details.
-Questions? Email [vishal@newai.in](mailto:vishal@newai.in) or open an issue.
+Questions? Email [hsvirus2015@gmail.com](mailto:hsvirus2015@gmail.com) or open an issue.
 
 ---
 
 ## 🔒 Security
 
-If you discover any security issues, please email [vishal@newai.in](mailto:vishal@newai.in) instead of using the issue tracker.
+If you discover any security issues, please email [hsvirus2015@gmail.com](mailto:hsvirus2015@gmail.com) instead of using the issue tracker.
 
 ---
 
 ## 👏 Credits
 
+- [Shamseer K](https://github.com/shamseer1997)
 - [Vishal Sharma](https://github.com/vish4395)
 - [meshesha/officetohtml](https://github.com/meshesha/officetohtml)
 - [VolodymyrBaydalka/docxjs](https://github.com/VolodymyrBaydalka/docxjs)

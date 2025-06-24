@@ -1,6 +1,6 @@
 <?php
 
-namespace Vish4395\LaravelFileViewer;
+namespace shamseer1997\LaravelFileViewer;
 
 use Illuminate\Support\ServiceProvider;
 

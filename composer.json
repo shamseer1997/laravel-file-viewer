@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Shamseer1997\\LaravelFileViewer\\": "src"
+            "shamseer1997\\LaravelFileViewer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shamseer1997\\LaravelFileViewer\\Tests\\": "tests"
+            "shamseer1997\\LaravelFileViewer\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shamseer1997\\LaravelFileViewer\\LaravelFileViewerServiceProvider"
+                "shamseer1997\\LaravelFileViewer\\LaravelFileViewerServiceProvider"
             ],
             "aliases": {
-                "LaravelFileViewer": "Shamseer1997\\LaravelFileViewer\\LaravelFileViewerFacade"
+                "LaravelFileViewer": "shamseer1997\\LaravelFileViewer\\LaravelFileViewerFacade"
             }
         }
     }

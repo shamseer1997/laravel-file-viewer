@@ -1,11 +1,11 @@
 <?php
 
-namespace Vish4395\LaravelFileViewer;
+namespace shamseer1997\LaravelFileViewer;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Vish4395\LaravelFileViewer\Skeleton\SkeletonClass
+ * @see \shamseer1997\LaravelFileViewer\Skeleton\SkeletonClass
  */
 class LaravelFileViewerFacade extends Facade
 {
