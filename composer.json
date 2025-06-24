@@ -1,22 +1,22 @@
 {
-    "name": "vish4395/laravel-file-viewer",
+    "name": "shamseer1997/laravel-file-viewer",
     "description": "A basic file viewer for Laravel projects",
     "keywords": [
-        "vish4395",
+        "shamseer1997",
         "laravel-file-viewer"
     ],
-    "homepage": "https://github.com/vish4395/laravel-file-viewer",
+    "homepage": "https://github.com/shamseer1997/laravel-file-viewer",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Vishal Sharma",
-            "email": "vishal@newai.in",
+            "name": "shamseer1997",
+            "email": "hsvirus2015@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4|^8.0|^8.1|^8.2",
         "laravel/framework": "*"
     },
     "require-dev": {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vish4395\\LaravelFileViewer\\": "src"
+            "Shamseer1997\\LaravelFileViewer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vish4395\\LaravelFileViewer\\Tests\\": "tests"
+            "Shamseer1997\\LaravelFileViewer\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vish4395\\LaravelFileViewer\\LaravelFileViewerServiceProvider"
+                "Shamseer1997\\LaravelFileViewer\\LaravelFileViewerServiceProvider"
             ],
             "aliases": {
-                "LaravelFileViewer": "Vish4395\\LaravelFileViewer\\LaravelFileViewerFacade"
+                "LaravelFileViewer": "Shamseer1997\\LaravelFileViewer\\LaravelFileViewerFacade"
             }
         }
     }
